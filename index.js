@@ -15,7 +15,6 @@ function createSquare(){
 function createChecker(){
     var width = document.getElementById("width").value;
     var height = document.getElementById("height").value;
-    var asterisk = true;
     var output = "";
     for(i = 0; i < height; i++){
         for(j = 0; j < width; j++){
@@ -24,7 +23,6 @@ function createChecker(){
             }else{
                 output += " ";
             }
-            asterisk = !asterisk;
         }
         output += "\n";
     }
